@@ -1,0 +1,8 @@
+*.fbx
+*.tga
+*.meta
+DirectXTex.inl
+DirectXTex.lib
+Effects11.lib
+Effects11d.lib
+Dump.txt

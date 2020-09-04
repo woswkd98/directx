@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{c831fe2f-9760-4c47-a6e0-8c15b907e17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\physics">
+      <UniqueIdentifier>{a7c02bde-5705-49ec-88a7-e3efedc60765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\baseClass">
+      <UniqueIdentifier>{ced82065-ef2a-4758-8dd0-5db29510ab47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\manager">
+      <UniqueIdentifier>{0fa2ca76-9a85-4608-bae1-4e6a9a96ea4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\cScene">
+      <UniqueIdentifier>{0111a4cb-ed51-4e89-94b1-3dad5c04fe3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\transform">
+      <UniqueIdentifier>{a1e424cd-db09-4325-a09b-39cbe29edc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Mesh">
+      <UniqueIdentifier>{a3bd6d9e-ac78-4db8-a062-1548085dd051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\algorthm">
+      <UniqueIdentifier>{3ba78a05-ff69-48bc-850e-68a1ce1b1c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\carmera">
+      <UniqueIdentifier>{9ab30936-0e52-4ff2-8b94-6c16d561edef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\pool">
+      <UniqueIdentifier>{a8fb1191-2e43-4d70-b516-ca4fd6e715eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{de59d6d5-e6d6-4191-a5e4-47881175bb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Light">
+      <UniqueIdentifier>{d6b57554-c8fd-4945-8a3e-e4d7fb512853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\parseXML">
+      <UniqueIdentifier>{ff705db2-b28f-4350-8f07-0d3318b1390d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\shaderFx">
+      <UniqueIdentifier>{50f60dff-f54e-4664-8059-8368d9bbc7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\shaderFx\forward">
+      <UniqueIdentifier>{22445ddd-278a-42be-8393-ab40e6a5a1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Animation">
+      <UniqueIdentifier>{34e08955-d956-4d2e-9f89-6ecb02cdb176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\gBuffer">
+      <UniqueIdentifier>{9fb9ba48-ceb0-420d-ace7-c652709467b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\shaderFx\deferredLighting">
+      <UniqueIdentifier>{32fb3a8c-41bd-4269-b91f-988f3ac6c042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\shaderFx\tesselator">
+      <UniqueIdentifier>{441f8004-2b1a-4719-835f-3eba335914b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\particle">
+      <UniqueIdentifier>{cfada72a-78a7-4008-b2e0-a22fbb2994a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Math">
+      <UniqueIdentifier>{1c239d03-3006-4c91-8174-844f483a8dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\algorthm\navigate">
+      <UniqueIdentifier>{851212ee-20df-489c-be3b-c21c84fe3c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Octree">
+      <UniqueIdentifier>{e1fb5a93-b30e-4ff0-84a8-cb8d10d4a97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\Gizmo">
+      <UniqueIdentifier>{74d25c24-13f0-4be6-8e55-4819953f1940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\terrain">
+      <UniqueIdentifier>{74b1a1e6-b757-4d55-8090-fd25fc10905e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\algorthm\AI">
+      <UniqueIdentifier>{c957eb84-aff0-4ecd-8c50-2be1685c97ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\algorthm\AI\BehaviorTree">
+      <UniqueIdentifier>{2f89c179-31e6-4c99-b51c-1cab48894c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\algorthm\AI\StateMachine">
+      <UniqueIdentifier>{1c3d1803-981d-4b71-81cb-79b4fd2af09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\shaderFx\Particle">
+      <UniqueIdentifier>{4a7b28f7-701b-4754-8ce4-bd647472fa0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cCollider.h">
+      <Filter>framework\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>framework\baseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cSingletonBase.h">
+      <Filter>framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>framework\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainLoop.h">
+      <Filter>framework\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonoBehavior.h">
+      <Filter>framework\baseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cTransform.h">
+      <Filter>framework\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>framework\baseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>framework\carmera</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Project2.h" />
+    <ClInclude Include="cTimeManager.h">
+      <Filter>framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cPool.h">
+      <Filter>framework\pool</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLogMgr.h">
+      <Filter>framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysicsComponent.h">
+      <Filter>framework\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeMove.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>framework\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cXmlFileManager.h">
+      <Filter>framework\parseXML</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraMove.h">
+      <Filter>script</Filter>
+    </ClInclude>
+    <ClInclude Include="cGBuffer.h">
+      <Filter>framework\gBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightComponent.h">
+      <Filter>framework\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimation.h">
+      <Filter>framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainFuncUpdate.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cFBXFileLoader.h">
+      <Filter>framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMaterial.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh_Node.h">
+      <Filter>framework\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cStatic_Mesh.h">
+      <Filter>framework\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleEmitter.h">
+      <Filter>framework\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cRigidbodyManager.h">
+      <Filter>framework\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cNavigate.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cRayCast.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cCameraManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMeshRenderer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>framework\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneChanger.h">
+      <Filter>framework\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputController.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cGizmoManager.h">
+      <Filter>framework\Gizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundComponent.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyController.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh_Render.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cBVHTree.h">
+      <Filter>framework\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cContact.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cBVHTreeNode.h">
+      <Filter>framework\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="cRandom.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cColliderShape.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleManager.h">
+      <Filter>framework\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleEmitterHandle.h">
+      <Filter>framework\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cParticleComponent.h">
+      <Filter>framework\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="cBehaviorTree.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObjectHandle.h">
+      <Filter>framework\baseClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Project2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cCollider.cpp">
+      <Filter>framework\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>framework\baseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>framework\cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainLoop.cpp">
+      <Filter>framework\cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonoBehavior.cpp">
+      <Filter>framework\baseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="cSingletonBase.cpp">
+      <Filter>framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTransform.cpp">
+      <Filter>framework\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>framework\baseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>framework\carmera</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimeManager.cpp">
+      <Filter>framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cPool.cpp">
+      <Filter>framework\pool</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLogMgr.cpp">
+      <Filter>framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysicsComponent.cpp">
+      <Filter>framework\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeMove.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="cXmlFileManager.cpp">
+      <Filter>framework\parseXML</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>framework\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraMove.cpp">
+      <Filter>script</Filter>
+    </ClCompile>
+    <ClCompile Include="cGBuffer.cpp">
+      <Filter>framework\gBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightComponent.cpp">
+      <Filter>framework\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimation.cpp">
+      <Filter>framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainFuncUpdate.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cFBXFileLoader.cpp">
+      <Filter>framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMaterial.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh_Node.cpp">
+      <Filter>framework\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cStatic_Mesh.cpp">
+      <Filter>framework\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="cRigidbodyManager.cpp">
+      <Filter>framework\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleEmitter.cpp">
+      <Filter>framework\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cNavigate.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cRayCast.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cCameraManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMeshRenderer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>framework\cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneChanger.cpp">
+      <Filter>framework\cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundComponent.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyController.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh_Render.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cBVHTree.cpp">
+      <Filter>framework\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cContact.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cBVHTreeNode.cpp">
+      <Filter>framework\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="cRandom.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cColliderShape.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cGizmoManager.cpp">
+      <Filter>framework\Gizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleManager.cpp">
+      <Filter>framework\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleEmitterHandle.cpp">
+      <Filter>framework\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cParticleComponent.cpp">
+      <Filter>framework\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="cBehaviorTree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObjectHandle.cpp">
+      <Filter>framework\baseClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Win32Project2.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Win32Project2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="DirectionalLightShader.fx">
+      <Filter>리소스 파일\shaderFx\forward</Filter>
+    </FxCompile>
+    <FxCompile Include="FourLight.fx">
+      <Filter>리소스 파일\shaderFx\forward</Filter>
+    </FxCompile>
+    <FxCompile Include="RenderSceneShader.fx">
+      <Filter>리소스 파일\shaderFx\forward</Filter>
+    </FxCompile>
+    <FxCompile Include="ModelTessShader.fx">
+      <Filter>리소스 파일\shaderFx\tesselator</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexColorShader.fx">
+      <Filter>리소스 파일\shaderFx</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleVS.fx">
+      <Filter>리소스 파일\shaderFx\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticlePS.fx">
+      <Filter>리소스 파일\shaderFx\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleInitCS.fx">
+      <Filter>리소스 파일\shaderFx\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleEmitCS.fx">
+      <Filter>리소스 파일\shaderFx\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleDrawGS.fx">
+      <Filter>리소스 파일\shaderFx\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleCS.fx">
+      <Filter>리소스 파일\shaderFx\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="CapsuleLightShader.fx">
+      <Filter>리소스 파일\shaderFx\deferredLighting</Filter>
+    </FxCompile>
+    <FxCompile Include="CommonShader.fx">
+      <Filter>리소스 파일\shaderFx\deferredLighting</Filter>
+    </FxCompile>
+    <FxCompile Include="DeferredShader.fx">
+      <Filter>리소스 파일\shaderFx\deferredLighting</Filter>
+    </FxCompile>
+    <FxCompile Include="DirLightShader.fx">
+      <Filter>리소스 파일\shaderFx\deferredLighting</Filter>
+    </FxCompile>
+    <FxCompile Include="GBufferVisShader.fx">
+      <Filter>리소스 파일\shaderFx\deferredLighting</Filter>
+    </FxCompile>
+    <FxCompile Include="PointLightShader.fx">
+      <Filter>리소스 파일\shaderFx\deferredLighting</Filter>
+    </FxCompile>
+    <FxCompile Include="SpotLightShader.fx">
+      <Filter>리소스 파일\shaderFx\deferredLighting</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
